@@ -1,8 +1,23 @@
 {
+  "name": "express-app",
+  "version": "0.0.0",
+  "scripts": {
+      "build": "spack && npm run static && npm run prerender",
+      "static": "cp static/* dist",
+      "prerender": "ts-node tools/prerender.ts"
+  },
+  "directories": {
+      "serve": "dist"
+  },
+  "files": ["dist", "server.js"],
+  "main": "server.js",
+
+
   "dependencies": {
     "express": "^4.18.2",
     "express-handlebars": "^7.0.2",
     "express-session": "^1.17.3",
+    "firebase": "^9.23.0",
     "handlebars": "^4.7.7",
     "init": "^0.1.2",
     "mongoose": "^7.0.2"

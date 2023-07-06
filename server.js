@@ -1,23 +1,4 @@
 //======= Server setup =======//
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-
-const firebaseConfig = {
-  apiKey: "AIzaSyAMu1cm2Y4IHi7GNaJrMaNjXzg1YWEl7sg",
-  authDomain: "gymclass-8575d.firebaseapp.com",
-  projectId: "gymclass-8575d",
-  storageBucket: "gymclass-8575d.appspot.com",
-  messagingSenderId: "1014631723994",
-  appId: "1:1014631723994:web:d09af011f6ff3177abc6e3",
-  measurementId: "G-5Y3H5R74R6"
-};
-
-
-
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
 
 const express = require("express");
 const exphbs = require("express-handlebars");
@@ -26,11 +7,6 @@ const path = require("path");
 const HTTP_PORT = process.env.PORT || 3030;
 const mongoose = require("mongoose");
 mongoose.connect("mongodb+srv://dbUser:Tiggy2986@cluster0.jstjz5l.mongodb.net/?retryWrites=true&w=majority");
-
-export function handle(req, res) {
-  
-}
-
 
 app.set("view engine", ".hbs");
 app.use(express.urlencoded({extended: true}));

@@ -1,0 +1,31 @@
+<main>
+  {{#if log}}
+  {{#if empty}}
+  <div class="loginError">
+    <p>ERROR: No item in your cart!</p>
+    <a id="goBack" href="/available-classes">Go Back </a>
+  </div>
+  {{else}}
+  <br>
+  <p id="yourClasses"> <b>Your Classes</b></p>
+  {{#each classes}}
+  {{>cartForm this}}
+  {{/each}}
+
+  <div class="totals">
+    <p><b>Subtotal:</b> ${{aSubtotal}}</p>
+    <p id="tax"><b>Tax:</b>${{aTax}}</p>
+    <p><b>Total:</b> ${{aTotal}}</p>
+  </div>
+
+  <form action="/confirm/{{aTotal}}/{{isMember}}" method="POST">
+    <button id="paymentButton">Payment</button>
+  </form>
+  {{/if}}
+  {{else}}
+  <div class="loginError">
+    <p> ERROR: MUST BE LOGGED IN!</p>
+    <a id="goBack" href="/">Go Back </a>
+  </div>
+  {{/if}}
+</main>

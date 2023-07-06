@@ -1,0 +1,50 @@
+<main>
+  {{#if signUp}}
+    <section class="membership-options">
+      <header>Membership Options</header>
+       <div class="membership-option member">
+        <h2>Monthly Membership</h2>
+        <p>$75/per month</p>
+        <ul>
+          <li>Unlimited Classes</li>
+          <li>Unlimited access to the Gym</li>
+         </ul>
+      </div>
+      <hr>
+
+      <div class="membership-option non-member">
+        <h2>No Membership</h2>
+        <p>No monthly subscription</p>
+        <ul>
+          <li>Sign up for Classes ($25/each class)</li>
+        </ul>
+     <hr>
+        <p>Would you like to register for membership?</p>
+        <form action="/registered" method="POST">
+          <input type="hidden" name="username" value="{{username}}">
+          <input type="hidden" name="password" value="{{password}}">
+          <input type="submit" name="memberOption" value="Yes">
+          <input type="submit" name="memberOption" value="No">
+        </form>
+      </div>
+    </section>
+
+  {{else}}
+    {{#if exist}}
+      <div class="login-error">
+        <p>ERROR: Incorrect Username or Password</p>
+        <a href="/">Go Back</a>
+      </div>
+    {{else}}
+      <div class="login-signup">
+        <header>Login/Sign-Up</header>
+        <form action="/login" method="POST">
+          <input type="text" name="user" placeholder="username">
+          <input type="text" name="pass" placeholder="password">
+          <input type="submit" name="option" value="LOGIN">
+          <input type="submit" name="option" value="CREATE ACCOUNT">
+        </form>
+      </div>
+    {{/if}}
+  {{/if}}
+</main>

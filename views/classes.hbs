@@ -1,0 +1,15 @@
+<main class="background">
+   {{#if check}}
+   <div class="loginError">
+      <p> ERROR: You must login to book classes!</p>
+      <a id="goBack" href="/classes">Go Back</a>
+   </div>
+   {{else}}
+   <br>
+   <p id="availableClasses"> <b> Available Classes</b></p>
+   <p id="desc">Some classes we offer to help meet your workout goals</p>
+   {{#each classes}}
+   {{>classesForm this}}
+   {{/each}}
+   {{/if}}
+</main>

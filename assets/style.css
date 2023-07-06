@@ -1,0 +1,246 @@
+
+
+/*LAYOUT*/
+/* 
+#layout{
+    font-family: Comic Sans MS, cursive, sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #000000;
+    text-decoration: solid;
+    border: 2px solid #ffffff;
+    margin-bottom: 10px;
+    
+    
+}
+
+.homeTemp{
+    display: flex;  
+    align-items: flex-start;
+    align-items: center;
+
+}
+#pic{
+    flex: 0 0 auto; 
+    margin-right: 1rem;
+
+}
+
+#title {
+    font-size: 30px;
+    
+}
+
+
+form {
+    margin-bottom: 24px;
+
+}
+
+input {
+   align-self: center;
+
+}
+
+body {
+    background-color: #767676;
+    color: #ffffff;
+    margin-left: 200px;
+    margin-right: 200px;
+    width: 70vw;
+}
+
+/* header css */
+/* #home, #admin{
+    font-family: Comic Sans MS, cursive, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ff0000;
+    text-decoration: solid, underline;
+}
+
+#admin{
+    margin-left: 24px;
+}
+
+#home:hover, #admin:hover{
+    color: #e2dddd;
+}
+
+#layout form input{
+    padding: 4px 16px;
+    min-width: 400px !important;
+    font-size: 20px;
+    margin-left: 60px;
+    min-width: 280px;
+    max-height: 32px;
+    border-radius: 4px;
+    outline: none;
+    margin-top: 20px;
+}
+
+#layout form button{
+    padding: 4px 10px;
+    min-height: 32px;
+    font-size: 20px;
+    border-radius: 4px;
+    min-width: 120px;
+    margin-top: 20px;
+    border: none;
+}
+
+#layout form button:hover{
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* item css */
+/*
+.homeTemp{
+    margin-bottom: 16px;
+}
+
+.homeTemp div{
+    margin-left: 8px;
+}
+
+
+#name{
+    font-size: 20px;
+}
+
+#date{
+    font-size: 18px;
+}
+
+#pic{
+    min-width: 450px;
+    max-height: 280px;
+    cursor: pointer;
+}
+
+#view{
+    padding: 6px 16px;
+    font-size: 18px;
+    border-radius: 4px;
+    border: none;
+}
+
+#view:hover{
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* detailTemp css */
+/*
+.detailTemp{
+    display: flex;
+    flex-direction: row;
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+
+#vid{
+    min-width: 600px;
+    max-height: 360px;
+}
+#detailblock{
+    margin-right: 20px;
+    border: 1px dashed #fff;
+    padding: 0 12px;
+}
+
+#detailblock p{
+    font-size: 18px;
+}
+
+#likeButton{
+    padding: 6px 36px;
+    font-size: 15px;
+    border-radius: 4px;
+    border: none;
+}
+
+#likeButton:hover{
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#add{
+    font-size: 20px !important; 
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+#inputName{
+    max-width: 150px;
+    padding: 6px 12px;
+    font-size: 18px;
+    outline: none;
+    border-radius: 4px;
+    border: none;
+}
+
+#inputCom{
+    margin-top: 6px;
+    min-width: 250px;
+    padding: 6px 12px;
+    font-size: 18px;
+    outline: none;
+    border-radius: 4px;
+}
+
+#commentButton{
+    padding: 6px 36px;
+    font-size: 15px;
+    border-radius: 4px;
+    border: none;
+}
+
+#commentButton:hover{
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#username{
+    font-family: Comic Sans MS, cursive, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #08f51c;
+    margin-bottom: 0;
+}
+
+/* adminTemp css */
+/*
+.adminTemp{
+    border: 1px dashed #fff;
+    margin-bottom: 16px;
+    padding: 0 10px;
+}
+
+.adminTemp p{
+    font-size: 20px;
+}
+
+#delete{
+    padding: 6px 36px;
+    font-size: 15px;
+    border-radius: 4px;
+    border: none;
+}
+
+#delete:hover{
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}  */ 

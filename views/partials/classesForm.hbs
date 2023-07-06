@@ -1,0 +1,11 @@
+<article class="card">
+    <img id="pic" src="{{this.image}}" alt="">
+    <div class="sameLine">
+        <p id="className"><b> {{this.title}}</b></p>
+        <p id="hours">{{this.duration}} minutes</p>
+        <form action="/book/{{this._id}}" method="POST">
+            <button id="bookButton">Book Now</button>
+        </form>
+    </div>
+
+</article>

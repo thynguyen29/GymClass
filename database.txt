@@ -1,0 +1,27 @@
+[
+        {
+            "image": "https://www.linkpicture.com/q/cardio.jpg",
+            "title": "Cardio",
+            "duration": "60"
+        },
+        {
+           "image": "https://www.linkpicture.com/q/strength.jpg",
+            "title": "Strength",
+            "duration": "90"
+        },
+        {
+           "image": "https://www.linkpicture.com/q/meditate.jpg",
+            "title": "Meditation",
+            "duration": "30"
+        },
+        {
+           "image": "https://www.linkpicture.com/q/dance.jpg",
+            "title": "Dance",
+            "duration": "60"
+        },
+        {
+           "image": "https://www.linkpicture.com/q/swimming_1.jpeg",
+            "title": "Swimming",
+            "duration": "45"
+        },
+    ]

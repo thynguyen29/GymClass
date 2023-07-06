@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7f99a72c13.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <title>Fitness Gym</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="gymName"> FITNESS GYM</h1>
+        <nav>
+            <div class="allLink">
+                <a id="available" href="/available-classes">Classes</a>
+
+                {{#if log}}
+                <a id="login" href="/logout"> Logout</a>
+                {{else}}
+                <a id="login" href="/"> Login</a>
+                {{/if}}
+                <a id="cart" href="/cart"> <i class="fa-solid fa-cart-shopping"></i></a>
+        </nav>
+        </div>
+        <hr id="navHr">
+    </header>
+
+    {{{body}}}
+</body>
+
+</html>
